@@ -1,0 +1,10 @@
+alias cp='cp -iv'                          # confirm before overwriting something
+alias mv='mv -iv'
+alias df='df -h'                          # human-readable sizes
+alias free='free -mh'                      # show sizes in MB
+alias np='nano -w PKGBUILD'
+alias less='less -FSRXc'
+alias mkdir='mkdir -pv'
+alias nano='nano -W'
+alias wget='wget -c'
+alias src='source ~/.bashrc'
