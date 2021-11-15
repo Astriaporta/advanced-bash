@@ -17,6 +17,7 @@ alias grbc='git rebase --continue'
 alias grba='git rebase --abort'
 alias grbs='git rebase --skip'
 alias grbi='git rebase -i'
+alias grbh='git rebase -i HEAD~'
 
 # Remote
 alias grm='git remote'
