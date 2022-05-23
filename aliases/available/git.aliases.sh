@@ -37,6 +37,7 @@ alias gbnm='git branch --no-merged'
 alias gbr='git branch --remote'
 alias gbsc='git branch --show-current'
 alias gct='git checkout'
+alias grmbr='git branch -D'
 
 # Merge
 alias gmr='git merge'
