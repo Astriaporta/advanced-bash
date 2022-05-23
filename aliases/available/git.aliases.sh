@@ -43,3 +43,8 @@ alias gmr='git merge'
 alias gmrom='git merge origin/master'
 alias gmrt='git mergetool --no-prompt'
 alias gmrum='git merge upstream/master'
+
+# Other
+
+## Remove all branches that are merged on master, main and develop
+alias gcleanbr='git branch --merged | egrep -v "(^\*|master|main|develop)" | xargs git branch -d'
